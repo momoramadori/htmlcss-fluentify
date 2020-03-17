@@ -3,3 +3,146 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Baloo 2', cursive;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(13, 50, 90);
+    height: 500px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#header-top {
+    height: 100px;
+}
+
+#header-bottom {
+    height: 400px;
+    background-image: url(img/uomini.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.logo-container {
+    width: 15%;
+    float: left;
+}
+
+#logo {
+    padding-top: 26px;
+}
+
+.menu-container {
+    width: 45%;
+    float: left;
+}
+
+#menu-list {
+    list-style-type: none;
+}
+
+#menu-list li {
+    float: left;
+    padding: 8px;
+    margin-top: 33px;
+}
+
+#menu-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu-list li:hover a {
+    color: orange;
+}
+
+.cta-container {
+    width: 40%;
+    float: left;
+    height: 100px;
+    text-align: right;
+}
+
+.cta-container a {
+    margin-right: 8px;
+}
+
+#link {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    line-height: 100px;
+}
+
+.btn {
+    border: 1px solid #4e8cb6;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: rgb(123, 188, 0);
+    border-color: rgb(123, 188, 0);
+}
+
+.jumbo-container {
+    position: relative;
+    height: 400px;
+}
+
+.jumbotron {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+}
+
+.jumbotron h1 {
+    text-transform: none;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.jumbotron a {
+    padding: 10px 25px;
+}
+
+.section-grey {
+    height: 150px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.section-grey .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.section-grey .container :first-child {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.section-grey .container :last-child {
+    font-weight: 500;
+    font-size: 20px;
+    color: grey;
+}
+
+.section-main {
+    height: 500px;
+}
