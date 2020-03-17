@@ -144,5 +144,50 @@ header {
 }
 
 .section-main {
-    height: 500px;
+    height: 550px;
+}
+
+.rows {
+    text-align: center;
+}
+
+.illustration, .text {
+    float: left;
+    width: 32%;
+    text-align: center;
+    position: relative;
+}
+
+.illustration:nth-child(2) , .text:nth-child(2) {
+    margin: 0 2%;
+}
+
+.illustration img {
+    height: 140px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text hr {
+    width: 10%;
+    margin: 10px 45%;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.text h3 {
+    font-size: 24px;
+    color: green;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.text p {
+    color: grey;
+}
+
+main hr {
+    color: rgba(255, 255, 255, 0.5);
+    height: 0.5px;
+    margin: 0 10px;
 }
