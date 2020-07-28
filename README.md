@@ -1,1 +1,1 @@
-htmlcss-fluentify
+#7 : Replica layout Fluentify (Float)
